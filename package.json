@@ -1,0 +1,15 @@
+{
+  "name": "micron-test-for-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "micron-runner --end 5 --start 1 --step 1 -o docs -r 3"
+  },
+  "keywords": ["benchmark","micron-runner","test"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "micron-runner": "0.0.8"
+  }
+}
